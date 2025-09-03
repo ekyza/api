@@ -6,6 +6,23 @@ Perfect for quickly bootstrapping a **production-ready API** with best practices
 
 ---
 
+## ✅ Requirements
+
+Before running this project, make sure you have installed the following:
+
+- **[Node.js](https://nodejs.org/)** v18 or higher
+- **[npm](https://www.npmjs.com/)** (comes with Node.js)
+- **[PostgreSQL](https://www.postgresql.org/)** (or another supported database, adjust `DATABASE_URL` accordingly)
+- **[Git](https://git-scm.com/)** (for cloning the repository)
+- **OpenSSL** (for generating secure JWT/email secrets, optional but recommended)
+
+Optional (for development convenience):
+
+- **[Docker](https://www.docker.com/)** (if you prefer running PostgreSQL in a container)
+- **[npx npm-check-updates](https://www.npmjs.com/package/npm-check-updates)** for dependency updates
+
+---
+
 ## 📂 Folder Structure
 
 ```
