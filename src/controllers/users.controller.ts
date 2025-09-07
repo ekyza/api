@@ -5,7 +5,7 @@ import { isApiError } from "../utils/apiError";
 import { createLogger } from "../utils/logger";
 
 import * as Service from "../services/users.service";
-import * as Schema from "../schemas/UsersSchema";
+import * as Schema from "../schemas/users.schema";
 
 export function getUsersController(req: Request, res: Response) {
   const logger = createLogger("get-users-controller");

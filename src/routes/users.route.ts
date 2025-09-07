@@ -2,7 +2,7 @@ import express from "express";
 
 import * as Middleware from "../middlewares/validator.middleware";
 import * as Controller from "../controllers/users.controller";
-import * as Schema from "../schemas/UsersSchema";
+import * as Schema from "../schemas/users.schema";
 
 const router = express.Router();
 
