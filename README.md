@@ -83,7 +83,7 @@ Optional:
 4. Initialize Prisma:
 
    ```bash
-   npx prisma init --datasource-provider postgresql --output ../generated/prisma
+   npx prisma init --datasource-provider postgresql --output ../src/generated/prisma
    ```
 
 5. Generate Better Auth schema (after configuring `auth.ts`):
@@ -125,7 +125,7 @@ Optional:
 
 ```bash
 # Initialize Prisma with PostgreSQL and custom output path
-npx prisma init --datasource-provider postgresql --output ../generated/prisma
+npx prisma init --datasource-provider postgresql --output ../src/generated/prisma
 
 # Generate Prisma client
 npx prisma generate
