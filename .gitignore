@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Prisma
+/src/generated/prisma
+
+/generated/prisma
+
+/generated/prisma
+
+/generated/prisma
