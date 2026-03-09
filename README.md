@@ -86,13 +86,19 @@ Optional:
    npx prisma init --datasource-provider postgresql --output ../src/generated/prisma
    ```
 
-5. Generate Better Auth schema (after configuring `auth.ts`):
+5. Generate Prisma client:
+
+   ```bash
+   npx prisma generate
+   ```
+
+6. Generate Better Auth schema (after configuring `auth.ts`):
 
    ```bash
    npx auth@latest generate
    ```
 
-6. Setup environment variables:
+7. Setup environment variables:
 
    ```bash
    cp .env.example .env
