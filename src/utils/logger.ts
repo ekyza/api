@@ -2,7 +2,7 @@ import pino from "pino";
 
 import { getRequestId } from "./request-context.js";
 
-const isDev = process.env.NODE_ENV !== "production";
+export const isDev = process.env.NODE_ENV !== "production";
 
 const _log = pino({
   level: isDev ? "debug" : "info",
@@ -43,5 +43,3 @@ export const log = {
     error: createPlainLogger("error"),
   },
 };
-
-export { isDev };
