@@ -125,6 +125,12 @@ Optional:
    DATABASE_URL="postgresql://username:password@localhost:5432/dbname_test?schema=public"
    ```
 
+8. Push schema to database:
+
+   ```bash
+   npx prisma db push
+   ```
+
 ---
 
 ## 🛠 Prisma Commands
